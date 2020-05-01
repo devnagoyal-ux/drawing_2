@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Drawing Board</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <!-- <script src="js/p5.play.js"></script> -->
+
+   
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAB2HdUqAdAN6TuJ01VOvE6UMlYrJAGk58",
+          authDomain: "drawing-app-ee160.firebaseapp.com",
+          databaseURL: "https://drawing-app-ee160.firebaseio.com",
+          projectId: "drawing-app-ee160",
+          storageBucket: "drawing-app-ee160.appspot.com",
+          messagingSenderId: "405458277096",
+          appId: "1:405458277096:web:08c427c6cbfbbb2a676f5d"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+ <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="canvascontainer"></div>
+        <script src="sketch.js"></script>
+    </div>
+    
+</body>
+
+</html>
